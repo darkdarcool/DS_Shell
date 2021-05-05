@@ -1,10 +1,15 @@
 #include <stdio.h>
 #include <string.h>
+#include <unistd.h>
+#include <stdlib.h>
 int main()
 {
     char str1[100];
     char input[10][10]; 
     int i,j,ctr; 
+    while (1) {
+
+    
     printf("$) ");
     fgets(str1, sizeof str1, stdin);	
  
@@ -24,8 +29,20 @@ int main()
             j++;
         }
     }
-		
+    
+    for(i=0;i < ctr;i++) {
+      int f = i + 1;
+      
+      if (strcmp(input[i], "read") == 0) {
+        char ee[] = "cat ";
+        strcat(ee, input[f]);
+        system(ee);
+        break;
+      }
+      
+      
 
-    printf(input);
-    return 0;
+    }
+  }
+  return 0;
 }
