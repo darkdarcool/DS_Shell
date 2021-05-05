@@ -2,7 +2,7 @@
 
 Hello and welcome to the DS_Shell(DarkScript Shell, and the name is pending). This is a shell made for darkscript, but is compiled down to a single exacutable file so you can use it as well! 
 
-Currently it is in beta, and doesn't do much right now, but hopefully it will be able to do so many greate things!
+Currently it is in beta, and doesn't do much right now, but hopefully it will be able to do so many great things!
 
 # Contributing
 
