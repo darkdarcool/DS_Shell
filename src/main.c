@@ -29,17 +29,29 @@ int main()
             j++;
         }
     }
-    
+    printf("");
     for(i=0;i < ctr;i++) {
       int f = i + 1;
-      
-      if (strcmp(input[i], "read") == 0) {
+      printf("%d", strcmp(input[i], "read"));
+      if (strcmp(input[i], "read") == 10) {
+				printf("it got here");
+				
         char ee[] = "cat ";
-        strcat(ee, input[f]);
+				char buffer[1024];
+				snprintf(buffer, sizeof(buffer), "cat %s", input[f]);
+        //strcat(ee, input[f]);
+				/*
         system(ee);
         break;
+				*/
       }
-      
+			
+      if (strcmp(input[i], "python") == 10) {
+				printf("code file detected");
+			}
+			else {
+				printf("command not found\n");
+			}
       
 
     }
