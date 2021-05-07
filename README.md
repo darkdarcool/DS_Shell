@@ -14,11 +14,6 @@ I ❤️ when you guys contribute, so you can do these things:
 
 # Installation
 
-You can download the file called shell, and do 
+You can fork this repo, put it on replit, and exacute `$ python3 main.py`. Then the terminal will start and your a free to start using the terminal! Cool right?
 
-``` bash
-./shell
-```
-And then the process will start! I hope that a tutorial of features will come eventually, but for now, just try to figure your way around by looking at the code if you can understand any of it.
-
-I hope that you have fun exploring the shell, and I'll see you next time! Bai!
+# Screenshots
