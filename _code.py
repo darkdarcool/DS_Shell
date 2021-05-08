@@ -12,6 +12,7 @@ def code(data):
 			file = lang + 1 
 			if (data[file] == "" or data[file] == " "):
 				print("Expected file but got none")
+				return None
 			try:
 				iscodefile = open(f"{data[file]}", 'r')
 			except:

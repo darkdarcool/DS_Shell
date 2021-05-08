@@ -17,3 +17,4 @@ I ❤️ when you guys contribute, so you can do these things:
 You can fork this repo, put it on replit, and exacute `$ python3 main.py`. Then the terminal will start and your a free to start using the terminal! Cool right?
 
 # Screenshots
+
