@@ -1,5 +1,6 @@
 from _read import read
 from _code import code
+from _binary import binary
 while (True):
 	try:
 		l_data = input("$) ")
@@ -11,6 +12,8 @@ while (True):
 			code(l_data)
 		elif (l_data[0:f] == "" or l_data[0:f] == " "):
 			None
+		elif ("binary" in l_data):
+			binary(l_data)
 		else:
 			print("Unknown Command")
 	except KeyboardInterrupt:
