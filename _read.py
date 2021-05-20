@@ -19,6 +19,8 @@ def read(data):
 					return None
 				isFile.close()
 				os.system("cat " + data[f])
+                                print()
+
 			else:
 				pass
 		except:
