@@ -19,7 +19,7 @@ def read(data):
 					return None
 				isFile.close()
 				os.system("cat " + data[f])
-                                print()
+                     print()
 
 			else:
 				pass
